@@ -12,24 +12,3 @@
     font-weight: normal;
     font-style: italic;
     }
-@font-face {
-    font-family: 'Linux Libertine';
-    src: url('../fonts/linlibertine_re-4.7.5-webfont.eot');
-    src: local('Linux Libertine'), url('../fonts/linlibertine_re-4.7.5-webfont.woff') format('woff'), url('../fonts/linlibertine_re-4.7.5-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
-@font-face {
-    font-family: 'Linux Libertine';
-    src: url('../fonts/linlibertine_bd-4.1.5-webfont.eot');
-    src: local('Linux Libertine'), url('../fonts/linlibertine_bd-4.1.5-webfont.woff') format('woff'), url('../fonts/linlibertine_bd-4.1.5-webfont.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    }
-@font-face {
-    font-family: 'Linux Libertine';
-    src: url('../fonts/linlibertine_it-4.2.6-webfont.eot');
-    src: local('Linux Libertine'), url('../fonts/linlibertine_it-4.2.6-webfont.woff') format('woff'), url('../fonts/linlibertine_it-4.2.6-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    }

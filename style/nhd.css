@@ -8,28 +8,36 @@ html, body {
     background: transparent;
     text-align: justify;
 }
+body a:link, body a:visited {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    color: #469ac5;
+    -webkit-transition: color .2s ease;
+    -moz-transition: color .2s ease;
+    transition: color .2s ease;
+}
+body a:hover {
+    color: #2c7396;
+    border-bottom: 1px solid;
+}
 body {
   line-height: 140%;
   color: #444;
+  font: large/1.55 "Helvetica Neue", Helvetica, Arial, sans-serif;
   word-wrap: break-word;
   word-spacing: 0.1em;
 }
-
-
-/*** Main Column ***/
-
+::selection {
+    background: #db1010;
+    color: #fff;
+}
 article {
-    word-spacing: 0.1;
-    margin-left: 182px;
-    width: 620px;
+    width: 980px;
+    text-align:center;
+    position:absolute;
+    top:20%;
 }
-article h1, h2, h3, h4 {
-    font-family: "Essays 1743";
+article h1.banner {
+    font: bold 5em/1 "Essays 1743";
 }
-article.banner {
-    position: absolute;
-    top: 30%;
-    float: center;
-    font: bold 2em/1.3 "Essays 1743";
-    text-align: center;
-}
+
