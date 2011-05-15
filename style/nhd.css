@@ -41,6 +41,7 @@ article h1.banner {
     font: bold 5em/1 "Essays 1743";
 }
 aside {
+    color: #555;
     width: 400px;
     margin: auto;
     font: normal 1.2em/1 "Essays 1743";
